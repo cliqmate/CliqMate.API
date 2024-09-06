@@ -1,0 +1,7 @@
+﻿@CliqMate.API_HostAddress = http://localhost:5239
+
+GET {{CliqMate.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
