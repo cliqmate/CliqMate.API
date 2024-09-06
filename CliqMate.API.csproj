@@ -4,17 +4,13 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.3" />
-  </ItemGroup>
-
-  <!-- Add the reference to the CliqMate.Shared project -->
-  <ItemGroup>
-    <ProjectReference Include="CliqMate.Shared/CliqMate.Shared.csproj" />
   </ItemGroup>
 
 </Project>
